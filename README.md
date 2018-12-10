@@ -10,7 +10,7 @@ Code for solving challenges of Advent of Code 2018 in Python
 
 `test.txt` - test data.
 
-`result.txt` - for checking your answer is correct.
+`result.txt` - for checking answer is correct.
 
 - There might be more than one test file.
 - `1.py` and `2.py` provide stright-forward solutions.(Usually not an optimized algorithm)
