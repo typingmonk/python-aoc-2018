@@ -14,7 +14,7 @@ Code for solving challenges of Advent of Code 2018 in Python
 
 - There might be more than one test file.
 - `1.py` and `2.py` provide stright-forward solutions.(Usually not an optimized algorithm)
-- Will provide some good solutions I learned from 4chan/g/ and Reddit/r/adventofcode/
+- Will provide some good solutions I learned from [4chan/g/](http://boards.4channel.org/g/) and [Reddit/r/adventofcode/](https://www.reddit.com/r/adventofcode/)
 
 ## 📝 Key Tips for solving challenges
 
