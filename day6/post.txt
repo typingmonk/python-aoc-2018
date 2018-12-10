@@ -1,2 +1,0 @@
-> measure-command {python 1.py}
-TotalSeconds      : 9.2818521
