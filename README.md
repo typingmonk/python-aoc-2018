@@ -1,5 +1,5 @@
 # 🎄 python-aoc-2018 🎄
-Code for solving challenges of Advent of Code 2018 in Python
+Code for solving challenges of [Advent of Code 2018](https://adventofcode.com/2018) in Python
 
 ## 📜 Contents (In each folder)
 `1.py` - codes for part1.
@@ -42,4 +42,4 @@ Code for solving challenges of Advent of Code 2018 in Python
 |`2.py`||
 
 ## 💬 Discussion
-Any suggestions and discussion are welcome through Issues.
+Any suggestions and discussion are welcome through [Issues](https://github.com/felixshai/python-aoc-2018/issues).
