@@ -1,5 +1,5 @@
 # 🎄 python-aoc-2018 🎄
-Code for solving challenges of [Advent of Code 2018](https://adventofcode.com/2018) in Python
+Code for solving challenges of [Advent of Code 2018](https://adventofcode.com/2018) in Python3
 
 ## 📜 Contents (In each folder)
 `1.py` - code for part1.
@@ -20,7 +20,7 @@ Code for solving challenges of [Advent of Code 2018](https://adventofcode.com/20
 
 |Index|Link|Index|Link|
 |:-|:-|:-|:-|
-|Day01||Day14||
+|Day01|https://hackmd.io/s/rJrKoY3kV|Day14||
 |Day02||Day15||
 |Day03||Day16||
 |Day04||Day17||
@@ -34,12 +34,12 @@ Code for solving challenges of [Advent of Code 2018](https://adventofcode.com/20
 |Day12||Day25||
 |Day13||
 
-## ⌛ Execution Time
+## ⌛ Execution Time(Using `input.txt`)
 
 |Day01|Report|
-|:-|:-|
-|`1.py`||
-|`2.py`||
+|:-|-:|
+|`1.py`|`real    0m0.097s`<br>`user    0m0.000s`<br/>`sys     0m0.000s`|
+|`2.py`|`real    0m0.200s`<br>`user    0m0.000s`<br/>`sys     0m0.015s`|
 
 ## 💬 Discussion
 Any suggestions and discussion are welcome through [Issues](https://github.com/felixshai/python-aoc-2018/issues).
