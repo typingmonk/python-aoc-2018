@@ -38,8 +38,8 @@ Code for solving challenges of [Advent of Code 2018](https://adventofcode.com/20
 
 |Day01|Report|
 |:-|-:|
-|`1.py`|`real    0m0.097s`<br>`user    0m0.000s`<br/>`sys     0m0.000s`|
-|`2.py`|`real    0m0.200s`<br>`user    0m0.000s`<br/>`sys     0m0.015s`|
+|`1.py`|`real    0m0.097s`<br>`user    0m0.000s`<br/>`sys      0m0.000s`|
+|`2.py`|`real    0m0.200s`<br>`user    0m0.000s`<br/>`sys      0m0.015s`|
 
 ## 💬 Discussion
 Any suggestions and discussion are welcome through [Issues](https://github.com/felixshai/python-aoc-2018/issues).
