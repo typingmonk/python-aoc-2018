@@ -20,7 +20,7 @@ Code for solving challenges of [Advent of Code 2018](https://adventofcode.com/20
 
 |Index|Link|Index|Link|
 |:-|:-|:-|:-|
-|Day01|https://hackmd.io/vguWLejfTauV4OcEMQf1jQ?view|Day14||
+|Day01|https://hackmd.io/s/rJrKoY3kV|Day14||
 |Day02||Day15||
 |Day03||Day16||
 |Day04||Day17||
