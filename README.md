@@ -2,9 +2,9 @@
 Code for solving challenges of [Advent of Code 2018](https://adventofcode.com/2018) in Python
 
 ## 📜 Contents (In each folder)
-`1.py` - codes for part1.
+`1.py` - code for part1.
 
-`2.py` - codes for part2.
+`2.py` - code for part2.
 
 `input.txt` - input data.
 
