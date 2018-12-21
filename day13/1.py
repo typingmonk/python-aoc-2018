@@ -79,8 +79,8 @@ for idx,line in enumerate(open("input.txt")):
 iterate = 0
 crash = []
 while len(crash)==0:
-    iterate += 1
-    print(iterate)
+    #iterate += 1
+    #print(iterate)
     for idx,cart in enumerate(carts):
         nX, nY = getNextXY(cart[0],cart[1],cart[2])
         nChr = getNextChar(cart[2],railMap[nY][nX],str(cart[3]))

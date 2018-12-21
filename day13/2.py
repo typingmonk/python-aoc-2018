@@ -79,8 +79,8 @@ for idx,line in enumerate(open("input.txt")):
 iterate = 0
 ans = []
 while True:
-    iterate += 1
-    print(iterate)
+    #iterate += 1
+    #print(iterate)
     for idx,cart in enumerate(carts):
         if cart[4]:
             continue
