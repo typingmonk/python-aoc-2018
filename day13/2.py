@@ -72,27 +72,33 @@ def orderSort(carts):
 #initial
 for idx,line in enumerate(open("input.txt")):
     line = line.replace("\t","    ").replace("\n","")
-    carts += [(i,idx,char,0) for i, char in enumerate(line) if char in ['>','<','^','v']]
+    carts += [(i,idx,char,0,False) for i, char in enumerate(line) if char in ['>','<','^','v']]
     railMap.append(line.replace(">","-").replace("<","-").replace("^","|").replace("v","|"))
 
 #looping
 iterate = 0
-crash = []
-while len(crash)==0:
+ans = []
+while True:
     iterate += 1
     print(iterate)
     for idx,cart in enumerate(carts):
+        if cart[4]:
+            continue
         nX, nY = getNextXY(cart[0],cart[1],cart[2])
         nChr = getNextChar(cart[2],railMap[nY][nX],str(cart[3]))
         if railMap[nY][nX] == "+":
-            nCart = (nX, nY, nChr, (cart[3]+1)%3)
+            nCart = (nX, nY, nChr, (cart[3]+1)%3, False)
         else:
-            nCart = (nX, nY, nChr, cart[3])
-        crash = [(aCart[0],aCart[1]) for aCart in carts if aCart[0] == nCart[0] and aCart[1] == nCart[1]]
-        if len(crash)>0:
-            break
+            nCart = (nX, nY, nChr, cart[3], False)
+        for j, aCart in enumerate(carts):
+            if not aCart[4] and aCart[0] == nCart[0] and aCart[1] == nCart[1]:
+                carts[j] = (aCart[0], aCart[1], aCart[2], aCart[3], True)
+                nCart = (nCart[0], nCart[1], nCart[2], nCart[3], True)
         carts[idx] = nCart
+    if len([cart for cart in carts if not cart[4]]) == 1:
+        ans = [cart for cart in carts if not cart[4]]
+        break
     carts = orderSort(carts)
     
     
-print(crash)
+print(ans)
