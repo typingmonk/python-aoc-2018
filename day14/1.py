@@ -15,4 +15,4 @@ while input+10 > len(recipes):
     idx_elf0 = (idx_elf0 + recipes[idx_elf0] + 1) % len(recipes)
     idx_elf1 = (idx_elf1 + recipes[idx_elf1] + 1) % len(recipes)
 
-print(recipes[-10:])
+print(''.join(map(str,recipes[-10:])))
